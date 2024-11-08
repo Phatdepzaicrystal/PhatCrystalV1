@@ -6607,7 +6607,7 @@ Page2.CreateToggle({
 }) 
 
 Page2.CreateToggle({
-	Name = "kỹ năng X",
+	Name = "X",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -6617,7 +6617,7 @@ Page2.CreateToggle({
 }) 
 
 Page2.CreateToggle({
-	Name = "kỹ năng C",
+	Name = "C",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -6627,7 +6627,7 @@ Page2.CreateToggle({
 }) 
 
 Page2.CreateToggle({
-	Name = "kỹ năng V",
+	Name = "V",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -6637,7 +6637,7 @@ Page2.CreateToggle({
 }) 
 
 Page2.CreateToggle({
-	Name = "kỹ năng F",
+	Name = "F",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -6650,7 +6650,7 @@ Page2.CreateToggle({
 
 
 Page2.CreateSlider({
-	Name = "phần trăm máu",
+	Name = "%Health",
 	Max = 100,
 	Min = 1,	
 	Value = 25,
@@ -6666,7 +6666,7 @@ Page2.CreateSlider({
 })
 
    Page2.CreateToggle({
-	Name = "dịch chuyển bypass",
+	Name = "Bypass TP",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6676,7 +6676,7 @@ Page2.CreateSlider({
 })
 
 Page2.CreateToggle({
-	Name = "đăt điểm hồi sinh",
+	Name = "Set Spawn",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6703,7 +6703,7 @@ Page2.CreateLable({
 })
 
 Page2.CreateSlider({
-	Name = "giữ kỹ năng Z",
+	Name = "Z",
 	Max = 5,
 	Min = 0,	
 	Value = 1,
@@ -6714,7 +6714,7 @@ Page2.CreateSlider({
 })
 
 Page2.CreateSlider({
-	Name = "giữ kỹ năng X",
+	Name = "X",
 	Max = 5,
 	Min = 0,	
 	Value = 1,
@@ -6726,7 +6726,7 @@ Page2.CreateSlider({
 
    
 Page2.CreateSlider({
-	Name = "giữ kỹ năng C",
+	Name = "C",
 	Max = 5,
 	Min = 0,	
 	Value = 1,
@@ -6737,7 +6737,7 @@ Page2.CreateSlider({
 })
     
 Page2.CreateSlider({
-	Name = "giữ kỹ năng V",
+	Name = "V",
 	Max = 5,
 	Min = 0,	
 	Value = 1,
@@ -6748,7 +6748,7 @@ Page2.CreateSlider({
 })
 
 Page2.CreateSlider({
-	Name = "giữ kỹ năng F",
+	Name = "F",
 	Max = 5,
 	Min = 0,	
 	Value = 1,
@@ -6768,7 +6768,7 @@ if World1 or World2 then
 end
     if World1 then
 Page3.CreateToggle({
-	Name = "tự động biển thứ hai",
+	Name = "Auto Second Sea",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6837,7 +6837,7 @@ Page3.CreateToggle({
     if World2 then
 
 Page3.CreateToggle({
-	Name = "tự động biển thứ ba",
+	Name = "Auto Third Sea",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6893,7 +6893,7 @@ Page3.CreateToggle({
     if World2 then
     
 Page3.CreateToggle({
-	Name = "tự động farm nhà máy",
+	Name = "Auto Factory",
 	Dis = "Auto Factory",
 	Value = false,
 	Callback = function(v)
@@ -6948,7 +6948,7 @@ Mirragecheck = Page4.CreateLable({
 })
 
 Page4.CreateToggle({
-	Name = "bay đến đảo bí ẩn",
+	Name = "Tele to Mirage",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6971,7 +6971,7 @@ Page4.CreateToggle({
         end)
         
 Page4.CreateToggle({
-	Name = "bay đến ông bán fruit",
+	Name = "Tele to Advanced Fruit Dealer",
 	Dis = "Find Advanced Fruit Dealer",
 	Value = false,
 	Callback = function(v)
@@ -6982,7 +6982,7 @@ Page4.CreateToggle({
 })
 
 Page4.CreateToggle({
-	Name = "bay đến bánh răng",
+	Name = "Tele to Gear",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6996,7 +6996,7 @@ spawn(function()
     pcall(function()
         while wait() do
             if game:GetService("Workspace").Map:FindFirstChild('KitsuneIsland') then
-                SetCheeask:Set('✅: Kitsunen Spwan')
+                SetCheeask:Set('✅: Kitsunen Spawn')
             else
                 SetCheeask:Set('❌: Kitsunen Not Found')
             end
@@ -7014,7 +7014,7 @@ SetCheeask = Page4.CreateLable({
 
 
 Page4.CreateToggle({
-	Name = "bay đến đảo kitsune",
+	Name = "Tele to Kisune Island",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7035,7 +7035,7 @@ Page4.CreateToggle({
         end)
         
 Page4.CreateToggle({
-	Name = "nhặt lửa linh hồn",
+	Name = "Collect Azure Ember",
 	Dis = "Collect Azure Ember",
 	Value = false,
 	Callback = function(v)
@@ -7058,7 +7058,7 @@ Page4.CreateToggle({
         end)
 
 Page4.CreateSlider({
-	Name = "đặt linh hồn",
+	Name = "Set To Trade Aure Ember",
 	Max = 30,
 	Min = 10,	
 	Value = 20,
@@ -7069,7 +7069,7 @@ Page4.CreateSlider({
 })
 
 Page4.CreateToggle({
-	Name = "trade linh hồn",
+	Name = "Auto Trade",
 	Dis = "Auto Trade Shrine",
 	Value = false,
 	Callback = function(v)
@@ -7149,7 +7149,7 @@ Page3.CreateLable({
 })
     
 Page3.CreateToggle({
-	Name = "tự động super human",
+	Name = "Auto Superhuman",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
