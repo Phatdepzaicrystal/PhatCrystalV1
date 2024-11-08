@@ -11175,7 +11175,7 @@ Page4.CreateToggle({
 	end,
 }) 
 Page4.CreateToggle({
-	Name = "Tự động kill râu trắng",
+	Name = "Auto GrayBeard",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11232,7 +11232,7 @@ local PolePos = CFrame.new(-7748.0185546875, 5606.80615234375, -2305.89868164062
     end)
 if World2 then
 Page4.CreateToggle({
-	Name = "tự động lấy kính swan",
+	Name = "Auto Swan Glasses",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11349,7 +11349,7 @@ ObservationRange = Page4.CreateLable({
     end)
     
 Page4.CreateToggle({
-	Name = "tự động farm haki",
+	Name = "Auto Obsevervation",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11360,7 +11360,7 @@ Page4.CreateToggle({
 }) 
 
 Page4.CreateToggle({
-	Name = "tự động nâng haki V2",
+	Name = "Auto Observation V2",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11459,7 +11459,7 @@ Page4.CreateToggle({
 
 if World1 then
 Page4.CreateToggle({
-	Name = "tự động lấy Saber",
+	Name = "Auto Saber",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11588,7 +11588,7 @@ Page3.CreateLable({
 
 if World3 then
 Page3.CreateToggle({
-	Name = "tự động đánh hải tặc",
+	Name = "Auto Pirate Sea",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11637,7 +11637,7 @@ end
 
 if World2 then
 Page3.CreateToggle({
-	Name = "tự động nâng tộc v2",
+	Name = "Auto Race V2",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11698,7 +11698,7 @@ spawn(function()
 end
  if World3 then   
 Page3.CreateToggle({
-	Name = "tự động đánh người nộm",
+	Name = "Auto Dummy",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11768,7 +11768,7 @@ Page3.CreateToggle({
     end
 if World3 then
 Page3.CreateToggle({
-	Name = "tự động đánh Admin Boss",
+	Name = "Auto Rip",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11818,7 +11818,7 @@ Page3.CreateToggle({
         end)
         
 Page3.CreateToggle({
-	Name = "tự động bật haki màu",
+	Name = "Auto Activate Haki",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11857,7 +11857,7 @@ Page3.CreateToggle({
     end)
     
 Page3.CreateToggle({
-	Name = "tự động lấy mũ lính ngự lâm",
+	Name = "Auto Musketeer Hat",
 	Dis = "Musketeer",
 	Value = false,
 	Callback = function(v)
@@ -11945,7 +11945,7 @@ Page3.CreateToggle({
     end)
     
 Page3.CreateToggle({
-	Name = "tự động lấy haki cầu vồng",
+	Name = "Auto Rainbow Haki",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12187,7 +12187,7 @@ end
     end)
 if World2 then
 Page3.CreateToggle({
-	Name = "tự động làm nhiệm vụ Bartlio",
+	Name = "Auto Bartlio Quest",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12288,7 +12288,7 @@ Page3.CreateToggle({
 end
 if World3 then
 Page3.CreateToggle({
-	Name = "tự động thấp đuốt",
+	Name = "Auto Holy Torch",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12388,11 +12388,11 @@ function InMyNetWork(object)
 end
     
 Page8.CreateLable({
-	Name = "thống kê chỉ số"
+	Name = "Stast Points"
 })
 
 Pointstat = Page8.CreateLable({
-	Name = "điểm"
+	Name = "Stast"
 })
 
     
@@ -12405,7 +12405,7 @@ Pointstat = Page8.CreateLable({
     end)
     
     Page7.CreateMultiDropdown({
-	Name = "chọn chỉ số để nâng",
+	Name = "Choose Stast",
 	Value = {"Melee"},
 	List = {"Melee","Defense","Sword","Gun","Demon Fruit"},
 	Callback = function(v)
@@ -12429,7 +12429,7 @@ spawn(function()
 	end)
 	
 Page7.CreateToggle({
-	Name = "tự động thống kê",
+	Name = "Auto Stast",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12441,8 +12441,8 @@ Page7.CreateToggle({
 
 
 Page7.CreateSlider({
-	Name = "điểm nâng",
-	Max = 100,
+	Name = "Stast",
+	Max = 500,
 	Min = 1,	
 	Value = 1,
 	Format = function(v)
@@ -12455,19 +12455,19 @@ Page7.CreateSlider({
 
 
 Melee = Page8.CreateLable({
-	Name = "Điểm cận chiến"
+	Name = "Melee"
 })
 Defense = Page8.CreateLable({
-	Name = "Điểm phòng thủ"
+	Name = "Defense"
 })
 Sword = Page8.CreateLable({
-	Name = "Điểm kiếm"
+	Name = "Sword"
 })
 Gun = Page8.CreateLable({
-	Name = "Điểm súng"
+	Name = "Gun"
 })
 Fruit = Page8.CreateLable({
-	Name = "Điểm fruit"
+	Name = "Fruit"
 })
 
 
@@ -12515,7 +12515,7 @@ Fruit = Page8.CreateLable({
     
 if World1 or World2 then
 Page10.CreateLable({
-	Name = "Đi tới Biển Thứ Ba"
+	Name = "Go to ThirdSea"
 })
 end
 
@@ -12575,35 +12575,35 @@ Page10.CreateLable({
 })
 
 Page10.CreateButton({
-	Name = "dịch chuyển đến đỉnh cây",
+	Name = "Tele to Great Tree(Top)",
 	Callback = function()
 		TP1(CFrame.new(2947.556884765625, 2281.630615234375, -7213.54931640625))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "Dịch chuyển đến đền thờ",
+	Name = "Tele to Temple",
 	Callback = function()
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
 	end,
 })
 
 Page10.CreateButton({
-	Name = "dịch chuyển cần gạt",
+	Name = "Full Lever",
 	Callback = function()
 		TP1(CFrame.new(28575.181640625, 14936.6279296875, 72.31636810302734))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "dịch chuyển đến Ancient One",
+	Name = "Tele to Ancient One",
 	Callback = function()
 		TP1(CFrame.new(28981.552734375, 14888.4267578125, -120.245849609375))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "di chuyển đến đồng hồ",
+	Name = "Tele to Temple of Time",
 	Callback = function()
 		game:GetService("Workspace").Map["Temple of Time"].DoNotEnter:Remove()
         game:GetService("Workspace").Map["Temple of Time"].ClockRoomExit:Remove()
@@ -12612,7 +12612,7 @@ Page10.CreateButton({
 
 
 Page10.CreateToggle({
-	Name = "Tự động mua Gear",
+	Name = "Auto Buy Gear",
 	Dis = "Buy Gear",
 	Value = false,
 	Callback = function(v)
@@ -12641,7 +12641,7 @@ end)
 end)
 
 Page10.CreateToggle({
-	Name = "tự động nhìn mặt trăng",
+	Name = "Look MoonMoon",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12651,7 +12651,7 @@ Page10.CreateToggle({
 }) 
 
 Page10.CreateToggle({
-	Name = "tự động kích hoạt tộc v3",
+	Name = "Auto Race V3",
 	Dis = "Oper Rece",
 	Value = false,
 	Callback = function(v)
@@ -12673,7 +12673,7 @@ spawn(function()
     end
 end)
 Page10.CreateToggle({
-	Name = "tự động farm trial tộc",
+	Name = "Auto Farm Trails",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12751,53 +12751,53 @@ spawn(function()
 end)
 
 Page10.CreateButton({
-	Name = "dịch đến cổng tộc cyborg",
+	Name = "Tele to Cyborg Door",
 	Callback = function()
 		TP1(CFrame.new(28492.4140625, 14894.4267578125, -422.1100158691406))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "dịch đến cổng tộc Fish",
+	Name = "Tele to Fish Door",
 	Callback = function()
 		TP1(CFrame.new(28224.056640625, 14889.4267578125, -210.5872039794922))
 	end,
 })
  
  Page10.CreateButton({
-	Name = "dịch đến cổng tộc Ghoul",
+	Name = "Tele to Ghoul Door",
 	Callback = function()
 		TP1(CFrame.new(28672.720703125, 14889.1279296875, 454.5961608886719))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "dịch đến cổng tộc Human",
+	Name = "Tele to Human Door",
 	Callback = function()
 		TP1(CFrame.new(29237.294921875, 14889.4267578125, -206.94955444335938))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "dịch đến cổng tộc Mink",
+	Name = "Tele to Mink Door",
 	Callback = function()
 		TP1(CFrame.new(29020.66015625, 14889.4267578125, -379.2682800292969))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "dịch đến cổng tộc Sky",
+	Name = "Tele to Sky Door",
 	Callback = function()
 		TP1(CFrame.new(28967.408203125, 14918.0751953125, 234.31198120117188))
 	end,
 })
   
 Page10.CreateLable({
-	Name = "tự động trial"
+	Name = "Auto Trails"
 })
 
 Page10.CreateButton({
-	Name = "tự động mua gear",
+	Name = "Auto Buy Gear",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer('UpgradeRace','Buy')
 	end,
@@ -12805,7 +12805,7 @@ Page10.CreateButton({
 
 
 Page10.CreateToggle({
-	Name = "tự động kill người chơi trial[error]",
+	Name = "Auto Kill[Not Work]",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12816,7 +12816,7 @@ Page10.CreateToggle({
 }) 
 
 Page10.CreateToggle({
-	Name = "tự động hoàn thành ải tộc",
+	Name = "Auto Finish Trails",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -12944,21 +12944,21 @@ spawn(function()
 end)
   
 Page10.CreateButton({
-	Name = "tự động hoàn thành ải Angel",
+	Name = "Auto Finish Angel",
 	Callback = function()
 		TP1(game.Workspace.Map.SkyTrial.Model.FinishPart.CFrame)
 	end,
 })
 
 Page10.CreateButton({
-	Name = "tự động hoàn thành ải Rabbit",
+	Name = "Auto Finish Rabbit",
 	Callback = function()
 		TP1(game:GetService("Workspace").Map.MinkTrial.Ceiling.CFrame * CFrame.new(0,-5,0))
 	end,
 })
 
 Page10.CreateButton({
-	Name = "tự động hoàn thành ải Cyborg",
+	Name = "Auto Finish Cyborg",
 	Callback = function()
 		TP1(CFrame.new(0,300,0))
 	end,
@@ -13017,11 +13017,11 @@ end)
     end)
 
 Page9.CreateLable({
-	Name = "Chiến đấu"
+	Name = "Combat"
 })
 
 plyserv = Page9.CreateLable({
-	Name = "Người chơi"
+	Name = "Local Player"
 })
 
 	
@@ -13051,7 +13051,7 @@ plyserv = Page9.CreateLable({
     end
     
 SelectedPly = Page9.CreateDropdown({
-	Name = "Chọn người chơi",
+	Name = "Selected Player",
 	Value = "Playerslist",
 	List = Playerslist,
 	Callback = function(v)
@@ -13061,7 +13061,7 @@ SelectedPly = Page9.CreateDropdown({
 })
 
 Page9.CreateButton({
-	Name = "làm mới người chơi",
+	Name = "Refresh Player",
 	Callback = function()
 		Playerslist = {}
         SelectedPly:Clear()
@@ -13072,7 +13072,7 @@ Page9.CreateButton({
 })
 
 Page9.CreateToggle({
-	Name = "xem người chơi",
+	Name = "Look Player",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13088,7 +13088,7 @@ Page9.CreateToggle({
 }) 
     
 Page9.CreateToggle({
-	Name = "di chuyển đến người chơi",
+	Name = "Tele to Player",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13103,7 +13103,7 @@ Page9.CreateToggle({
 	end,
 }) 
 Page9.CreateToggle({
-	Name = "tự động đánh người chơi bypass",
+	Name = "Auto Atack Player",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13123,7 +13123,7 @@ Page9.CreateToggle({
 
                                     
 Page9.CreateToggle({
-	Name = "tự động đánh người chơi",
+	Name = "Auto Kill Player",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13170,7 +13170,7 @@ Page9.CreateToggle({
     end)
    
 Page9.CreateLable({
-	Name = "Mang thuyền"
+	Name = "Boat"
 })
 
 BoatsName = {}
@@ -13181,7 +13181,7 @@ end
 
 
 Boats = Page9.CreateDropdown({
-	Name = "chọn thuyền",
+	Name = "Selected Boat",
 	Value = "Boat  ",
 	List = BoatsName,
 	Callback = function(v)
@@ -13192,7 +13192,7 @@ Boats = Page9.CreateDropdown({
 
 
 Page9.CreateButton({
-	Name = "làm mới lại thuyền",
+	Name = "Refresh Boat",
 	Callback = function()
 		BoatsName = {}
         Boats:Clear()
@@ -13203,25 +13203,25 @@ Page9.CreateButton({
 })
 
 Page9.CreateButton({
-	Name = "mua thuyền",
+	Name = "Buy Boat",
 	Callback = function()
 		game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Boats[_G.ELkY].VehicleSeat.CFrame
 	end,
 })
 
 Page9.CreateLable({
-	Name = "nhận nhiệm vụ"
+	Name = "Take Quest"
 })
 
 Page9.CreateButton({
-	Name = "nhận nhiệm vụ người chơi",
+	Name = "Take Quest Player",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("PlayerHunter")
 	end,
 })
 
 Page9.CreateToggle({
-	Name = "tự động săn người chơi",
+	Name = "Auto Player Hunter",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13285,7 +13285,7 @@ Page9.CreateToggle({
 
     
 Page9.CreateLable({
-	Name = "ghim tâm"
+	Name = "Aim Bot"
 })
      
     spawn(function()
@@ -13306,7 +13306,7 @@ Page9.CreateLable({
     end)
 
 Page9.CreateToggle({
-	Name = "ghim tâm súng",
+	Name = "Aim Bot Gun",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13334,7 +13334,7 @@ Page9.CreateToggle({
     end)
 
 Page9.CreateToggle({
-	Name = "mục tiêu gần nhất",
+	Name = "Auto Aim SKill Nearest",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13375,7 +13375,7 @@ spawn(function()
 end)
 
 Page9.CreateToggle({
-	Name = "Ghim tâm Skill",
+	Name = "Aim bot Skill",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13399,7 +13399,7 @@ Page9.CreateToggle({
     end)
     
 Page9.CreateToggle({
-	Name = "Bật PvP",
+	Name = "Turn on PVP",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13422,7 +13422,7 @@ Page9.CreateToggle({
     end)
     
 Page9.CreateToggle({
-	Name = "chế độ an toàn",
+	Name = "Safe Mode",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13444,7 +13444,7 @@ Page9.CreateToggle({
     end)
 
 Page9.CreateButton({
-	Name = "phục hồi",
+	Name = "Health",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam","Pirates") 
 		wait()
@@ -13452,15 +13452,15 @@ Page9.CreateButton({
 })
     
 Page11.CreateLable({
-	Name = "tập kích"
+	Name = "Raid"
 })
 
 TimeRaid = Page11.CreateLable({
-	Name = "Siêu đột kích"
+	Name = "Supper Raid"
 })
 
 Island = Page11.CreateLable({
-	Name = "Cuộc đột kích bổ sung"
+	Name = "Raid Bonus"
 })
     
     spawn(function()
@@ -13556,7 +13556,7 @@ spawn(function()
 	end
 	
 Page11.CreateDropdown({
-	Name = "chọn chip raid",
+	Name = "Select Chip",
 	Value = "Raidslist",
 	List = Raidslist,
 	Callback = function(v)
@@ -13581,7 +13581,7 @@ Page11.CreateDropdown({
     end)
 
 Page11.CreateToggle({
-	Name = "mua chip bắt đầu raid giết quái qua đảo",
+	Name = "Auto Buy Chip+Start Raid",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13597,11 +13597,11 @@ Page11.CreateToggle({
 
     
 Page11.CreateLable({
-	Name = "Thủ công"
+	Name = "Làm chay=))"
 })
 
 Page11.CreateToggle({
-	Name = "bắt đầu vào raid",
+	Name = "Start Raid",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13611,7 +13611,7 @@ Page11.CreateToggle({
 }) 
 
 Page11.CreateToggle({
-	Name = "tự động giết quái",
+	Name = "Auto Kill Monster",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13621,7 +13621,7 @@ Page11.CreateToggle({
 }) 
 
 Page11.CreateToggle({
-	Name = "tự động mua chip",
+	Name = "Buy Chip",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13631,7 +13631,7 @@ Page11.CreateToggle({
 }) 
 
 Page11.CreateToggle({
-	Name = "tự động qua đảo",
+	Name = "Next Island",
 	Dis = "Next Island",
 	Value = false,
 	Callback = function(v)
@@ -13642,7 +13642,7 @@ Page11.CreateToggle({
 }) 
 
 Page11.CreateToggle({
-	Name = "tự động thức tỉnh",
+	Name = "Auto Awakening",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13664,7 +13664,7 @@ Page11.CreateToggle({
 
     
 Page11.CreateSlider({
-	Name = "Giá Trái ác quỷ",
+	Name = "Unstore Fruit",
 	Max = 1000000,
 	Min = 1,	
 	Value = 1000000,
@@ -13675,7 +13675,7 @@ Page11.CreateSlider({
 })
 
 Page11.CreateToggle({
-	Name = "tự động bỏ trái cây",
+	Name = "Unstore Bad Fruit",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13737,14 +13737,14 @@ Page11.CreateToggle({
     
     if World2 then
 Page11.CreateButton({
-	Name = "dịch chuyển đến phòng raid",
+	Name = "Tele Raid Room",
 	Callback = function()
 		TP1(CFrame.new(-6438.73535, 250.645355, -4501.50684))
 	end,
 })
     elseif World3 then
 Page11.CreateButton({
-	Name = "dịch chuyển đến phòng raid",
+	Name = "Tele Raid Room",
 	Callback = function()
 		TP1(CFrame.new(-5017.40869, 314.844055, -2823.0127, -0.925743818, 4.48217499e-08, -0.378151238, 4.55503146e-09, 1, 1.07377559e-07, 0.378151238, 9.7681621e-08, -0.925743818))
 	end,
@@ -13756,7 +13756,7 @@ Page11.CreateLable({
 })
 
 Page11.CreateToggle({
-	Name = "mua chip kill law",
+	Name = "Buy Chip Law",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -13851,21 +13851,21 @@ Page12.CreateLable({
 })
 
 Page12.CreateButton({
-	Name = "đi đến sea 1",
+	Name = "Tele to sea 1",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelMain")
 	end,
 })
 
 Page12.CreateButton({
-	Name = "đi đến sea 2",
+	Name = "Tele to sea 2",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelDressrosa")
 	end,
 })
 
 Page12.CreateButton({
-	Name = "đi đến sea 3",
+	Name = "Tele to sea 3",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelZou")
 	end,
@@ -13938,7 +13938,7 @@ if World1 then
     end
     
 Page12.CreateDropdown({
-	Name = "chọn đảo",
+	Name = "Select Island",
 	Value = "nil",
 	List = Island,
 	Callback = function(v)
@@ -13948,7 +13948,7 @@ Page12.CreateDropdown({
 })
 
 Page12.CreateToggle({
-	Name = "bay qua đảo",
+	Name = "Tween To Island",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14064,7 +14064,7 @@ Page13.CreateLable({
 })
 
 Page13.CreateToggle({
-	Name = "tự động mua kiếm huyền thoại",
+	Name = "Auto Buy Legendary Sword",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14103,7 +14103,7 @@ Page13.CreateLable({
 })
 
 Page13.CreateToggle({
-	Name = "tự động mua haki huyền thoại",
+	Name = "Auto Buy Enchancement Haki",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14131,28 +14131,28 @@ Page13.CreateLable({
 })
 
 Page13.CreateButton({
-	Name = "mua Geppo [$10,000]",
+	Name = "Geppo [$10,000]",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Geppo")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Buso Haki [ $25,000 ]",
+	Name = "Buso Haki [ $25,000 ]",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Buso")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Soru [ $25,000 ]",
+	Name = "Soru [ $25,000 ]",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Soru")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Observation Haki [ $750,000 ]",
+	Name = "Observation Haki [ $750,000 ]",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("KenTalk","Buy")
 	end,
@@ -14163,28 +14163,28 @@ Page13.CreateLable({
 })
 
 Page13.CreateButton({
-	Name = "mua Black Leg",
+	Name = "Black Leg",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyBlackLeg")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Electro",
+	Name = "Electro",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyElectro")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua water kung fu",
+	Name = "Fishman Karate",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyFishmanKarate")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Dragon Claw",
+	Name = "Dragon Claw",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","DragonClaw","1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","DragonClaw","2")
@@ -14192,21 +14192,21 @@ Page13.CreateButton({
 })
     
 Page13.CreateButton({
-	Name = "mua Super Human",
+	Name = "Super Human",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySuperhuman")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Death Step",
+	Name = "Death Step",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyDeathStep")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Shark Man Karate",
+	Name = "Shark Man Karate",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySharkmanKarate",true)
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySharkmanKarate")
@@ -14214,28 +14214,28 @@ Page13.CreateButton({
 })
 
 Page13.CreateButton({
-	Name = "mua Electric Claw",
+	Name = "Electric Claw",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyElectricClaw")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Dragon Talon",
+	Name = "Dragon Talon",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyDragonTalon")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua God Human",
+	Name = "God Human",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Sanguine Art",
+	Name = "Sanguine Art",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySanguineArt", true)
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySanguineArt")
@@ -14248,70 +14248,70 @@ Page13.CreateLable({
 })
 
 Page13.CreateButton({
-	Name = "mua cutlass",
+	Name = "Cutlass",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Cutlass")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua katana",
+	Name = "Katana",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Katana")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua Iron mace",
+	Name = "Iron Mace",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Iron Mace")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua dual katana",
+	Name = "Dual Katana",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Duel Katana")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua tiple katana",
+	Name = "Triple Katana",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Triple Katana")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua pipe",
+	Name = "Pipe",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Pipe")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua dual-headed blade",
+	Name = "Dual Headed BBlade",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Dual-Headed Blade")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua bisento",
+	Name = "Bisento",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Bisento")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua soul cane",
+	Name = "Soul Cane",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Soul Cane")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua pole v.2",
+	Name = "Pole V2",
 	Callback = function()
 		game.ReplicatedStorage.Remotes.CommF_:InvokeServer("ThunderGodTalk")
 	end,
@@ -14322,35 +14322,35 @@ Page13.CreateLable({
 })
 
 Page13.CreateButton({
-	Name = "mua slingshot",
+	Name = "Slingshot",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Slingshot")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua musket",
+	Name = "Musket",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Musket")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua flintlock",
+	Name = "Flintlock",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Flintlock")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua eefined slingshot",
+	Name = "Refined Flintlock",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Refined Flintlock")
 	end,
 })
     
 Page13.CreateButton({
-	Name = "mua refined flintlock",
+	Name = "Refined Flintlock",
 	Callback = function()
 		local args = {
 			[1] = "BuyItem",
@@ -14361,14 +14361,14 @@ Page13.CreateButton({
 })
 
 Page13.CreateButton({
-	Name = "mua cannot",
+	Name = "Cannon",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Cannon")
 	end,
 })
 
 Page13.CreateButton({
-	Name = "mua kabucha",
+	Name = "Kabucha",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Slingshot","1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Slingshot","2")
@@ -14383,7 +14383,7 @@ Page13.CreateLable({
 })
 
 Page13.CreateButton({
-	Name = "reset chỉ số[2,500F]",
+	Name = "Reset Stast [2,500F]",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","2")
@@ -14391,7 +14391,7 @@ Page13.CreateButton({
 })
 
 Page13.CreateButton({
-	Name = "random tộc [3.000F]",
+	Name = "Random Race [3.000F]",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","1")
 	    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","2")
@@ -14409,7 +14409,7 @@ Page14.CreateLable({
 })
 
 Page14.CreateToggle({
-	Name = "tự động quay trái",
+	Name = "Auto Random",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14437,7 +14437,7 @@ Page14.CreateButton({
 })
 
 Page14.CreateButton({
-	Name = "mở shop bán trái",
+	Name = "Open Shop",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("GetFruits")
         game:GetService("Players").LocalPlayer.PlayerGui.Main.FruitShop.Visible = true
@@ -14507,7 +14507,7 @@ local ResultUnstoreFruits = {}
     }
 
 Page14.CreateDropdown({
-	Name = "chọn trái để mua",
+	Name = "Select Fruit to buy",
 	Value = "Common - Mythical",
 	List = SelectRarityFruits,
 	Callback = function(v)
@@ -14553,7 +14553,7 @@ SetRarityFruits = "Common - Mythical"
     end
     
 Page14.CreateToggle({
-	Name = "tự động cất trái",
+	Name = "Store Fruit",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14589,7 +14589,7 @@ Page14.CreateToggle({
     end)
 
 Page14.CreateToggle({
-	Name = "thông báo trái xuất hiện",
+	Name = "Noitification Fruit",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14612,7 +14612,7 @@ Page14.CreateToggle({
     end)
 
 Page14.CreateToggle({
-	Name = "lụm trái loại dịch chuyển",
+	Name = "Tween to Fruit",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14634,7 +14634,7 @@ Page14.CreateToggle({
         end)
     
 Page14.CreateToggle({
-	Name = "lụm trái loại bay",
+	Name = "Tele to Fruit",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14657,7 +14657,7 @@ Page14.CreateToggle({
     end)
 
 Page14.CreateButton({
-	Name = "lụm trái loại garp",
+	Name = "Tele to Fruit(Grap)",
 	Callback = function()
 		for i,v in pairs(game.Workspace:GetChildren()) do
             if v:IsA("Tool") then
@@ -14672,7 +14672,7 @@ Page14.CreateLable({
 })
 
 Page14.CreateButton({
-	Name = "trái ác quỷ fake",
+	Name = "Fake Fruit",
 	Callback = function()
 		for h, i in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
                 i.Parent = game.Workspace.Map
@@ -14701,7 +14701,7 @@ Page15.CreateLable({
 })
     
 Page15.CreateButton({
-	Name = "mở shop trái",
+	Name = "Open Shop Fruit",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("GetFruits")
         game:GetService("Players").LocalPlayer.PlayerGui.Main.FruitShop.Visible = true
@@ -14709,14 +14709,14 @@ Page15.CreateButton({
 })
 
 Page15.CreateButton({
-	Name = "mở bản haki",
+	Name = "Open Haki",
 	Callback = function()
 		game.Players.localPlayer.PlayerGui.Main.Colors.Visible = true
 	end,
 })
 
 Page15.CreateButton({
-	Name = "mở bản danh hiệu",
+	Name = "Open Titles",
 	Callback = function()
 		local args = {
             [1] = "getTitles"
@@ -14727,7 +14727,7 @@ Page15.CreateButton({
 })
 
 Page15.CreateButton({
-	Name = "mở hàng tồn kho",
+	Name = "Open Inventory",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("getInventoryWeapons")
         wait(1)
@@ -14736,7 +14736,7 @@ Page15.CreateButton({
 })
 
 Page15.CreateButton({
-	Name = "mở hàng tồn kho trái cây",
+	Name = "Open Fruit Inventory",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("getInventoryFruits")
         game:GetService("Players").LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true
@@ -14752,14 +14752,14 @@ Page15.CreateLable({
 })
 
 Page15.CreateButton({
-	Name = "Tham gia đội hải tặc",
+	Name = "Join Pirates",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam","Pirates") 
 	end,
 })
 
 Page15.CreateButton({
-	Name = "Tham gia đội hải quân",
+	Name = "Join Marines",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam","Marines") 
 	end,
@@ -14771,7 +14771,7 @@ Page15.CreateLable({
 })
 
 Page15.CreateToggle({
-	Name = "ẩn chat",
+	Name = "Hide Text",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14788,7 +14788,7 @@ end
 })
 
 Page15.CreateToggle({
-	Name = "ẩn bảng xếp hạng",
+	Name = "Hide GUI",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14805,7 +14805,7 @@ end
 })
 
 Page15.CreateToggle({
-	Name = "chế độ nổi bật",
+	Name = "Featured Mode",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14841,7 +14841,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateButton({
-	Name = "dừng bay",
+	Name = "Stop Tele",
 	Callback = function()
 		topos(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
 		TP1(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
@@ -14877,7 +14877,7 @@ Page15.CreateLable({
     }
     
 Page15.CreateButton({
-	Name = "nhập tất cả code",
+	Name = "Redeem All Codes",
 	Callback = function()
 		function RedeemCode(value)
             game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
@@ -14900,7 +14900,7 @@ Page15.CreateDropdown({
 })
 
 Page15.CreateButton({
-	Name = "nhập tất cả code",
+	Name = "Redeem All Codes",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(_G.CodeSelect)
 	end,
@@ -14911,7 +14911,7 @@ Page15.CreateLable({
 })
 
 Page15.CreateButton({
-	Name = "nhập tất cả code",
+	Name = "Redeem All Codes",
 	Callback = function()
 		local decalsyeeted = true 
         local g = game
@@ -14938,7 +14938,7 @@ Page15.CreateButton({
 })
 
 Page15.CreateButton({
-	Name = "xoá sương mù",
+	Name = "No Frog",
 	Callback = function()
 		game:GetService("Lighting").LightingLayers:Destroy()
     	game:GetService("Lighting").Sky:Destroy()
@@ -14947,7 +14947,7 @@ Page15.CreateButton({
 })
 
 Page15.CreateButton({
-	Name = "xoá dung nham",
+	Name = "No Magma",
 	Callback = function()
 		for i,v in pairs(game.Workspace:GetDescendants()) do
 			if v.Name == "Lava" then   
@@ -14971,7 +14971,7 @@ Page15.CreateLable({
 })
 
 Page15.CreateToggle({
-	Name = "định vị người chơi",
+	Name = "Esp Player",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14982,7 +14982,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị rương",
+	Name = "Esp Chest",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -14993,7 +14993,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị rương",
+	Name = "Esp Chest",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15004,7 +15004,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị trái",
+	Name = "Esp Fruit",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15017,7 +15017,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị trái real",
+	Name = "Esp Fruit Real",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15028,7 +15028,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị hoa",
+	Name = "Esp Flower",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15059,7 +15059,7 @@ Page15.CreateToggle({
     end)
 
 Page15.CreateToggle({
-	Name = "định vị đảo",
+	Name = "Esp Island",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15072,7 +15072,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị Npc",
+	Name = "Esp Npc",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15082,7 +15082,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị vua biển",
+	Name = "Esp Sea Beast",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15092,7 +15092,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị quái",
+	Name = "Esp Mob",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15102,7 +15102,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "định vị đảo bí ẩn",
+	Name = "Esp Mirage",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15119,7 +15119,7 @@ Page15.CreateLable({
 })
 
 Page15.CreateToggle({
-	Name = "không có né tránh",
+	Name = "No Ob",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15130,7 +15130,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "Năng lượng vô hạn",
+	Name = "Infi Energry",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15141,7 +15141,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "bật tộc v3",
+	Name = "Auto Race V3",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15151,7 +15151,7 @@ Page15.CreateToggle({
 })
 
 Page15.CreateToggle({
-	Name = "bật tộc v4",
+	Name = "Auto Race V4",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15186,7 +15186,7 @@ Page15.CreateToggle({
     end)
 
 Page15.CreateToggle({
-	Name = "tự động sử dụng đánh thức",
+	Name = "Auto Ability",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15207,7 +15207,7 @@ Page15.CreateToggle({
     end)
     
 Page15.CreateToggle({
-	Name = "thông tin geppo",
+	Name = "Infi Geppo",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15240,7 +15240,7 @@ Page15.CreateToggle({
     end)
 
 Page15.CreateToggle({
-	Name = "thông tin soru",
+	Name = "Infi Soru",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15272,7 +15272,7 @@ Page15.CreateToggle({
     end)
 
 Page15.CreateToggle({
-	Name = "đi trên biển",
+	Name = "Walk Water",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15295,7 +15295,7 @@ Page15.CreateToggle({
 		end)
 
 Page15.CreateToggle({
-	Name = "xuyên tường",
+	Name = "No Clip",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15397,7 +15397,7 @@ Page15.CreateToggle({
         end
     
 Page15.CreateToggle({
-	Name = "xuyên tường",
+	Name = "No Clip",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -15408,14 +15408,14 @@ Page15.CreateToggle({
 
 
 Page16.CreateButton({
-	Name = "vào lại server",
+	Name = "Rejoin",
 	Callback = function()
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end,
 })
 
 Page16.CreateButton({
-	Name = "đổi server",
+	Name = "Sever Hop",
 	Callback = function()
 	while wait() do
 		local module = loadstring(game:HttpGet"https://roblox.relzscript.xyz/Hop.lua")()
@@ -15439,7 +15439,7 @@ JobAiDee = Page16.CreateLable({
 })
 
 Page16.CreateButton({
-	Name = "sao chép Job Id",
+	Name = "Copy Job Id",
 	Callback = function()
 	setclipboard(tostring(game.JobId))
 	end,
@@ -15456,7 +15456,7 @@ Page16.CreateInput({
 })
 
 Page16.CreateButton({
-	Name = "vô server",
+	Name = "Join server",
 	Callback = function()
 	game:GetService("TeleportService"):TeleportToPlaceInstance(game.placeId,_G.Job, game.Players.LocalPlayer)
 	end,
@@ -15488,9 +15488,9 @@ FindFruit = Page16.CreateLable({
 ------------------------------------------------------------------------------------------------------------------------------------
 local players = game:GetService("Players")
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Trẩu Roblox";
+    Title = "Phat Hub";
     Text = "Loading Done!";
-    Icon = "rbxthumb://type=Asset&id=138689078158833&w=150&h=150";
+    Icon = "rbxthumb://type=Asset&id=14771394734&w=150&h=150";
     Duration = 10
 })
 
