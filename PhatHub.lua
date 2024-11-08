@@ -2212,7 +2212,7 @@ end
 
 -- Dark Blue Theme
 local Windown = library.Create({
-	Title = "Phat HubHub", Logo = 130447043410540,
+	Title = "Phat Hub", Logo = 130447043410540,
 	CornerRadius = 2, UISize = {
 		X = 700,
 		Y = 400
@@ -4614,7 +4614,7 @@ end)
     end)
 
 local Tap1 = Windown.CreateTap({
-	Title = "Chung",
+	Title = "Main",
 	Icon = 15169955786
 })
 
@@ -4627,7 +4627,7 @@ local Page2 = Tap1.CreatePage({
 })
 
 local Tap2 = Windown.CreateTap({
-	Title = "Vật Phẩm",
+	Title = "Iteam",
 	Icon = 10709769841
 })
 
@@ -4640,7 +4640,7 @@ local Page4 = Tap2.CreatePage({
 })
 
 local Tap3 = Windown.CreateTap({
-	Title = "Sự kiện biển",
+	Title = "Sea eventevent",
 	Icon = 10709761530
 })
 
@@ -4653,7 +4653,7 @@ local Page6 = Tap3.CreatePage({
 })
 
 local Tap4 = Windown.CreateTap({
-	Title = "Chỉ số",
+	Title = "Stast",
 	Icon = 10709770317
 })
 
@@ -4666,7 +4666,7 @@ local Page8 = Tap4.CreatePage({
 })
 
 local Tap5 = Windown.CreateTap({
-	Title = "Người chơi",
+	Title = "Player",
 	Icon = 10734975486
 })
 
@@ -4679,7 +4679,7 @@ local Page10 = Tap5.CreatePage({
 })
 
 local Tap6 = Windown.CreateTap({
-	Title = "Tập kích",
+	Title = "Raid",
 	Icon = 10723345749
 })
 
@@ -4692,7 +4692,7 @@ local Page12 = Tap6.CreatePage({
 })
 
 local Tap7 = Windown.CreateTap({
-	Title = "Cửa hàng",
+	Title = "ShopShop",
 	Icon = 10734952479
 })
 
@@ -4705,7 +4705,7 @@ local Page14 = Tap7.CreatePage({
 })
 
 local Tap8 = Windown.CreateTap({
-	Title = "Linh tinh",
+	Title = "Misc",
 	Icon = 10723424838
 })
 
@@ -4719,12 +4719,12 @@ local Page16 = Tap8.CreatePage({
 
 
 Page1.CreateLable({
-	Name = "trong phần cày chính nè"
+	Name = "FarmFarm"
 })
 
     
 local Time = Page1.CreateLable({
-	Name = "Thời gian"
+	Name = "Time"
 })
 
 
@@ -4746,7 +4746,7 @@ end)
 
 
 Page1.CreateLable({
-	Name = "cài đặt cày"
+	Name = "Setting farm"
 })
 
 Page1.CreateDropdown({
@@ -4815,12 +4815,12 @@ FarmMode = "Quest"
 
    
 Page1.CreateLable({
-	Name = "Cày các thứ"
+	Name = "Farm iteam"
 })
    
    
     Page1.CreateToggle({
-	Name = "tự động cày cấp",
+	Name = "Auto FarmFarm",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -4832,7 +4832,7 @@ Page1.CreateLable({
 
 
 Page1.CreateToggle({
-	Name = "tự động đánh quái ở đảo của bạn",
+	Name = "Auto farm nearestnearest",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -4985,7 +4985,7 @@ Page1.CreateToggle({
 
 if World1 then
     Page1.CreateToggle({
-	Name = "Cày nhanh chủ yếu từ lv1 đến lv300",
+	Name = "Auto famr(1-300)",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5073,7 +5073,7 @@ Page1.CreateDropdown({
 })
 
 Page1.CreateToggle({
-	Name = "tự động cày thông thạo trái ác quỷ",
+	Name = "Auto Mastery Fruit",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5085,7 +5085,7 @@ Page1.CreateToggle({
 
 
    Page1.CreateToggle({
-	Name = "tự động cày thông thạo súng",
+	Name = "Auto Mastery Gun",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5108,12 +5108,12 @@ end
 
 
 Page1.CreateLable({
-	Name = "Đánh quái theo lựa chọn"
+	Name = "Kill the chosen monster"
 })
 
 
     Page1.CreateDropdown({
-	Name = "Chọn quái để đánh",
+	Name = "Choose Monster",
 	Value = "tableMon",
 	List = tableMon,
 	Callback = function(v)
@@ -5123,7 +5123,7 @@ Page1.CreateLable({
 })
     
     Page1.CreateToggle({
-	Name = "tự động đánh quái đã chọn",
+	Name = "Auto Kill Selected Monster",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5172,7 +5172,7 @@ Page1.CreateLable({
     end)
 
     Page1.CreateLable({
-	Name = "Đánh boss"
+	Name = "Farm Boss"
 })
 
 local Boss = {}
@@ -5204,7 +5204,7 @@ end
 
 
 local BossName = Page1.CreateDropdown({
-	Name = "chọn boss để đánh",
+	Name = "Selected Boss",
 	Value = "tableBoss",
 	List = bossCheck,
 	Callback = function(v)
@@ -5214,7 +5214,7 @@ local BossName = Page1.CreateDropdown({
 })
 
 Page1.CreateButton({
-	Name = "reset tên các boss ở trong sever",
+	Name = "Reset Boss",
 	Callback = function()
 		BossName:Clear()
         wait(0.1)
@@ -5230,7 +5230,7 @@ Page1.CreateButton({
 })
 
     Page1.CreateToggle({
-	Name = "đánh boss đã chọn",
+	Name = "Auto Kill Boss",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5241,7 +5241,7 @@ Page1.CreateButton({
 })
 
 Page1.CreateToggle({
-	Name = "có nhận nhiệm vụ boss đó không",
+	Name = "Take Quest",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5347,7 +5347,7 @@ Page1.CreateToggle({
     end)
     
     Page1.CreateToggle({
-	Name = "đánh tất cả boss trong sever",
+	Name = "Auto Farm All Boss",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5392,7 +5392,7 @@ Page1.CreateToggle({
     end)
 if World3 then
     Page1.CreateLable({
-	Name = "boss bí ẩn"
+	Name = "Kill Elite"
 })
     
     spawn(function()
@@ -5424,7 +5424,7 @@ Elite_Hunter_Status = Page1.CreateLable({
 	end)
 
     Page1.CreateToggle({
-	Name = "tự động đánh boss bí ẩn",
+	Name = "Auto Elite",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5501,7 +5501,7 @@ Elite_Hunter_Status = Page1.CreateLable({
     end)
 
     Page1.CreateLable({
-	Name = "bone farm"
+	Name = "Farm Bone"
 })
 
     Page1.CreateDropdown({
