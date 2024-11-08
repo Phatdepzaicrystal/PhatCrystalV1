@@ -5505,7 +5505,7 @@ Elite_Hunter_Status = Page1.CreateLable({
 })
 
     Page1.CreateDropdown({
-	Name = "chọn chế độ",
+	Name = "Choose Mode Farm",
 	Value = "No Quest",
 	List = {"No Quest","Quest","MasteryFruit"},
 	Callback = function(v)
@@ -5516,7 +5516,7 @@ Elite_Hunter_Status = Page1.CreateLable({
 BoneFMode = "No Quest"
 
 Page1.CreateToggle({
-	Name = "tự động cày xương",
+	Name = "Auto Farm Bone",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5691,7 +5691,7 @@ Page1.CreateToggle({
         end)
     
 Page1.CreateToggle({
-	Name = "tự động random xương",
+	Name = "Auto Random Bone",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5711,7 +5711,7 @@ Page1.CreateToggle({
         end)
         
 Page1.CreateToggle({
-	Name = "tự động cầu nguyện",
+	Name = "Auto Pray",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5734,7 +5734,7 @@ Page1.CreateToggle({
         end)
         
 Page1.CreateToggle({
-	Name = "tự động thử vận may",
+	Name = "Auto Try LuckLuck",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
