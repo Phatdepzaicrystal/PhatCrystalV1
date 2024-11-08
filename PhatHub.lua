@@ -250,7 +250,7 @@ function library.Create(options)
 	Shadown.Size = UDim2.new(0, options.UISize.X, 0, options.UISize.Y) -- {0, 755},{0, 425} > PC 
 	Shadown.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	Shadown.ZIndex = 0
-	Shadown.Image = "rbxassetid://7912134082"
+	Shadown.Image = "rbxassetid://90571737707476"
 	Shadown.ImageColor3 = options.UIColor['Shadow'] or Color3.fromRGB(48, 51, 71)
 	Shadown.ImageTransparency = 0.300
 	Shadown.SliceCenter = Rect.new(95, 95, 205, 205)
@@ -323,7 +323,7 @@ function library.Create(options)
 	TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
 	TextLabel_6.ZIndex = 2
 	TextLabel_6.Font = Enum.Font.FredokaOne
-	TextLabel_6.Text = "Welcome To Trẩu Roblox"
+	TextLabel_6.Text = "Welcome To Phat Hub"
 	TextLabel_6.TextColor3 = Color3.fromRGB(189, 198, 212)
 	TextLabel_6.TextSize = 14.000
 	TextLabel_6.TextTransparency = 1.000
