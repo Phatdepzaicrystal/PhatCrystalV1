@@ -5734,7 +5734,7 @@ Page1.CreateToggle({
         end)
         
 Page1.CreateToggle({
-	Name = "Auto Try LuckLuck",
+	Name = "Auto Try Luck",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5763,7 +5763,7 @@ Page1.CreateLable({
 })
     
 Page1.CreateToggle({
-	Name = "nhặt rương loại bay",
+	Name = "Auto Farm Chest",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5805,7 +5805,7 @@ spawn(function()
 end)
 
 Page1.CreateToggle({
-	Name = "nhặt rương loại dịch chuyển",
+	Name = "Chest Bypass",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5816,7 +5816,7 @@ Page1.CreateToggle({
 })
 
 Page1.CreateToggle({
-	Name = "dừng khi có item",
+	Name = "Stop When Found Iteam",
 	Dis = "Stop When Found God's Chalice",
 	Value = false,
 	Callback = function(v)
@@ -5849,7 +5849,7 @@ spawn(function()
 end)
 
 Page1.CreateToggle({
-	Name = "nhặt rương trên đảo kì bí",
+	Name = "Auto Chest Mirage",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -5913,7 +5913,7 @@ end)
 
 if World3 then
 Page1.CreateLable({
-	Name = "Bột farm"
+	Name = "Katakuri farm"
 })
 	
 MobKilled = Page1.CreateLable({
@@ -5951,7 +5951,7 @@ MobKilled = Page1.CreateLable({
     end)
     
 Page1.CreateToggle({
-	Name = "tự động farm katakuri v1",
+	Name = "Auto Farm Katakuri v1",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6058,7 +6058,7 @@ Page1.CreateToggle({
     end)    
     
     Page1.CreateToggle({
-	Name = "tự động triệu hồi",
+	Name = "Auto Spawn",
 	Dis = "Auto Spwan",
 	Value = true,
 	Callback = function(v)
@@ -6081,7 +6081,7 @@ Page1.CreateToggle({
     
    
 Page1.CreateToggle({
-	Name = "tự động farm katakuri v2",
+	Name = "Auto Farm Katakuri v2",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6152,7 +6152,7 @@ Page2.CreateLable({
 })
 
 Page2.CreateSlider({
-	Name = "Khoảng cách farm",
+	Name = "Distance Farm",
 	Max = 50,
 	Min = 1,	
 	Value = 20,
@@ -6163,7 +6163,7 @@ Page2.CreateSlider({
 })
 
 Page2.CreateToggle({
-	Name = "gôm quái",
+	Name = "Bring Mob",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -6173,7 +6173,7 @@ Page2.CreateToggle({
 })
 
 Page2.CreateDropdown({
-	Name = "chọn gôm quái",
+	Name = "Select BringMode",
 	Value = "Normal",
 	List = {"Low", "Normal", "High"},
 	Callback = function(v)
@@ -6200,7 +6200,7 @@ spawn(function()
 end)
     
 Page2.CreateToggle({
-	Name = "đánh nhanh",
+	Name = "Fast Attack",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -6446,9 +6446,9 @@ fask.spawn(function()
     end
 end)
 Page2.CreateDropdown({
-    Name = "chọn tốc độ đánh(ko chọn = fast banana)",
-    Value = "Xeter Attack",
-    List = {"Normal Attack", "Fast Attack", "Super Attack", "Xeter Attack"},
+    Name = "Selected Fast Attack Mode",
+    Value = "Phatdepzai Attack",
+    List = {"Normal Attack", "Fast Attack", "Super Attack", "Phatdepzai Attack"},
     Callback = function(v)
         FireCooldown = v
         print(v)
@@ -6465,7 +6465,7 @@ spawn(function()
                     FireCooldown = 0.07
                 elseif FireCooldown == "Super Attack" then
                     FireCooldown = 0.04
-                elseif FireCooldown == "Xeter Attack" then
+                elseif FireCooldown == "Phatdepzai Attack" then
                     FireCooldown = 0.02
                 end
             end)
@@ -6483,7 +6483,7 @@ spawn(function()
                     FireCooldown = 0.07
                 elseif FireCooldown == "Super Attack" then
                     FireCooldown = 0.04
-                elseif FireCooldown == "Xeter Attack" then
+                elseif FireCooldown == "Phatdepzai Attack" then
                     FireCooldown = 0.02
                 end
             end)
@@ -6493,7 +6493,7 @@ end)
 
 
 Page2.CreateToggle({
-	Name = "xóa thông báo",
+	Name = "Remove Noitification",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6514,7 +6514,7 @@ end)
 
 
 Page2.CreateToggle({
-	Name = "xóa bỏ văn bản",
+	Name = "Remove Text",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -6536,7 +6536,7 @@ end)
 
 
 Page2.CreateToggle({
-	Name = "màn hình đen",
+	Name = "Nig... Screen",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6556,7 +6556,7 @@ spawn(function()
 end)
    
 Page2.CreateToggle({
-	Name = "màn hình trắng",
+	Name = "White Screen",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -6580,7 +6580,7 @@ end
 -- end)
     
 Page2.CreateSlider({
-	Name = "tốc độ bay",
+	Name = "Tween Speed",
 	Max = 1000,
 	Min = 1,	
 	Value = 400,
@@ -6597,7 +6597,7 @@ Page2.CreateLable({
     
 	
 Page2.CreateToggle({
-	Name = "kỹ năng Z",
+	Name = "Z",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
