@@ -7149,7 +7149,7 @@ Page3.CreateLable({
 })
     
 Page3.CreateToggle({
-	Name = "Auto Superhuman",
+	Name = "Auto Super Human",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7232,7 +7232,7 @@ Page3.CreateToggle({
     end)
     
 Page3.CreateToggle({
-	Name = "tự động death step",
+	Name = "Auto Death Step",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7264,7 +7264,7 @@ Page3.CreateToggle({
     end)
     
 Page3.CreateToggle({
-	Name = "tự động shark man karrate",
+	Name = "Auto SharkMan Karate",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7317,7 +7317,7 @@ Page3.CreateToggle({
     end)
 
 Page3.CreateToggle({
-	Name = "tự động electeic claw",
+	Name = "Auto Electric Claw",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7394,7 +7394,7 @@ Page3.CreateToggle({
     end)
 
 Page3.CreateToggle({
-	Name = "tự động dragon talon",
+	Name = "Auto Dragon Talon",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7427,7 +7427,7 @@ Page3.CreateToggle({
     end)
 
 Page3.CreateToggle({
-	Name = "tự động god human",
+	Name = "Auto God Human",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7494,7 +7494,7 @@ Page3.CreateLable({
 
 if World2 then
 Page3.CreateToggle({
-	Name = "tự động farm chất phóng xạ",
+	Name = "Auto Radioactive",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7554,7 +7554,7 @@ end
   
 if World2 then  
 Page3.CreateToggle({
-	Name = "tự động farm giọt Huyền Bí",
+	Name = "Auto Farm Mystic Droplet",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7615,7 +7615,7 @@ end
     
 if World1 or World2 then
 Page3.CreateToggle({
-	Name = "tự động farm quặng magma",
+	Name = "Auto Magma Ore",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7723,7 +7723,7 @@ end
     
 if World1 then  
 Page3.CreateToggle({
-	Name = "tự động farm đôi cánh thiên thần",
+	Name = "Auto Wing",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7783,7 +7783,7 @@ end
 
 if World1 or World2 or World3 then   
 Page3.CreateToggle({
-	Name = "tự động farm da thú",
+	Name = "Auto Leather",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -7937,7 +7937,7 @@ spawn(function()
   
 if World2 then    
 Page3.CreateToggle({
-	Name = "tự động farm vật chất kì dị",
+	Name = "Auto Ectoplasm",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -8103,7 +8103,7 @@ end
     
 if World3 then  
 Page3.CreateToggle({
-	Name = "tự động farm bột cacao",
+	Name = "Auto Cocoa",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -8164,7 +8164,7 @@ end
  
 if World3 then  
 Page3.CreateToggle({
-	Name = "tự động farm vãy rồng",
+	Name = "Auto Dragon Scale",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -8224,7 +8224,7 @@ end
   
 if World3 then    
 Page3.CreateToggle({
-	Name = "tự động farm thuốc súng",
+	Name = "Auto Gunpowder",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -8285,7 +8285,7 @@ end
  
 if World3 then  
 Page3.CreateToggle({
-	Name = "tự động farm đuôi cá",
+	Name = "Auto Fish Tail",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -8345,7 +8345,7 @@ end
     
 if World3 then  
 Page3.CreateToggle({
-	Name = "tự động farm ngà nhỏ",
+	Name = "Auto Tusk",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -8716,7 +8716,7 @@ Page4.CreateLable({
 })
  if World3 then   
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm buddy",
+	Name = "Auto Buddy",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -8779,7 +8779,7 @@ end
     
   if World2 or World3  then
 Page4.CreateToggle({
-	Name = "tự động lấy soul guitar",
+	Name = "Auto Soul Ghitar",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9011,7 +9011,7 @@ spawn(function()
 end)
 if World2 then
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm rengoku",
+	Name = "Auto Rengoku",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9023,7 +9023,7 @@ Page4.CreateToggle({
 end
 if World3 then
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm hallow scythe",
+	Name = "Auto Hallow Scythe",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9035,7 +9035,7 @@ Page4.CreateToggle({
 end
 if World1 then
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm warden",
+	Name = "Auto Warden Sword",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9048,7 +9048,7 @@ end
 
 if World3 then
 Page4.CreateToggle({
-	Name = "tự động lấy cursed dual katana",
+	Name = "Auto CDK",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9069,7 +9069,7 @@ end
 
 
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm yama",
+	Name = "Auto Yama",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9495,7 +9495,7 @@ end)
     
 if World3 then
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm tushita",
+	Name = "Auto Tushita",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9604,7 +9604,7 @@ Page4.CreateToggle({
 
 
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm cavander",
+	Name = "Auto Cavander",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9664,7 +9664,7 @@ end
 
 if World3 then
 Page4.CreateToggle({
-	Name = "tự động lấy kiếm twin hook",
+	Name = "Auto Twin Hook",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9725,7 +9725,7 @@ end
 
 if World2 then
 Page4.CreateToggle({
-	Name = "tự động kill Râu đen",
+	Name = "Auto Dark Coat",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9774,7 +9774,7 @@ spawn(function()
 end
 if World1 or World2 then 
     Page5.CreateLable({
-	Name = "Sea event In Sea 3"
+	Name = "Sea event (Sea 3)"
 })
 end
 
@@ -9805,7 +9805,7 @@ if World3 then
 
 _G.SelectedBoat = "Guardian"
 Page5.CreateDropdown({
-	Name = "chọn thuyền",
+	Name = "Selected Boat",
 	Value = "Guardian",
 	List = ListSeaBoat,
 	Callback = function(v)
@@ -9815,7 +9815,7 @@ Page5.CreateDropdown({
 })
 _G.SelectedZone = "Zone 5"
 Page5.CreateDropdown({
-	Name = "chọn biển",
+	Name = "SelectedZone",
 	Value = "Zone 5",
 	List = ListSeaZone,
 	Callback = function(v)
@@ -9825,7 +9825,7 @@ Page5.CreateDropdown({
 })
 
 Page5.CreateSlider({
-	Name = "Tốc độ thuyền",
+	Name = "Boat Speed",
 	Max = 350,
 	Min = 1,	
 	Value = 325,
@@ -10188,7 +10188,7 @@ end
     
 
 Page5.CreateToggle({
-	Name = "tự động kill Shark",
+	Name = "Auto Shark",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10199,7 +10199,7 @@ Page5.CreateToggle({
 }) 
 
 Page5.CreateToggle({
-	Name = "tự động kill Piranha",
+	Name = "Auto Piranha",
 	Dis =  "",
 	Value = false,
 	Callback = function(v)
@@ -10343,7 +10343,7 @@ Page5.CreateToggle({
 
     
 Page5.CreateToggle({
-	Name = "tự động kill ghost ship",
+	Name = "Auto Ghost Ship",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10358,7 +10358,7 @@ Page5.CreateToggle({
 }) 
     
     Page5.CreateToggle({
-	Name = "tự động kill pirate brigade",
+	Name = "Auto Pirate Brigade",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10373,7 +10373,7 @@ Page5.CreateToggle({
 }) 
 
 Page5.CreateToggle({
-	Name = "tự động kill pirate grand brigade",
+	Name = "Auto Pirate Grand Brigade",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10388,7 +10388,7 @@ Page5.CreateToggle({
 }) 
 
 Page5.CreateToggle({
-	Name = "tự động kill fish crew members",
+	Name = "Auto Fish Crew Members",
 	Dis =  "",
 	Value = false,
 	Callback = function(v)
@@ -10427,7 +10427,7 @@ Page5.CreateToggle({
     --     end)
 
 Page5.CreateToggle({
-	Name = "tự động kill terrorshark",
+	Name = "Auto Terrorshark",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10438,7 +10438,7 @@ Page5.CreateToggle({
 }) 
 
 Page5.CreateToggle({
-	Name = "tự động kill seabeast",
+	Name = "Auto Seabeast",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10488,7 +10488,7 @@ Page5.CreateLable({
 	Name = "Khả năng"
 })
 Page5.CreateSlider({
-	Name = "Sáng lên",
+	Name = "Bright Value",
 	Max = 50,
 	Min = 1,	
 	Value = 20,
@@ -10500,14 +10500,14 @@ Page5.CreateSlider({
 
         
 Page5.CreateButton({
-	Name = "thiết lập độ sáng",
+	Name = "Change Bright",
 	Callback = function()
 		game:GetService("Lighting").Brightness = BrightValue
 	end,
 })
 
 Page5.CreateToggle({
-	Name = "tăng tốc độ",
+	Name = "Increase Boat Speed",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10540,7 +10540,7 @@ Page5.CreateToggle({
             end)
  if World3 then       
 Page5.CreateToggle({
-	Name = "xuyên đá",
+	Name = "No Clip Ship",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10548,7 +10548,6 @@ Page5.CreateToggle({
 		print(v)
 	end,
 }) 
-         
             spawn(function()
                 while wait() do
                     pcall(function()
@@ -10566,9 +10565,8 @@ Page5.CreateToggle({
                     end)
                 end
             end)
-        
 Page5.CreateToggle({
-	Name = "tự động lái về phía trước",
+	Name = "Auto Press W",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -10732,7 +10730,7 @@ Page6.CreateLable({
 })
 
 Page6.CreateToggle({
-	Name = "sử dụng skill fruit",
+	Name = "Use Sea Fruit Skill",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10742,7 +10740,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "Sử dụng skill melee",
+	Name = "Use Sea Melee Skill",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10752,7 +10750,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "sử dụng skill sword",
+	Name = "Use Sea Sword Skill",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10762,7 +10760,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "sử dụng skill Gun",
+	Name = "Use Sea Gun Skill",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10773,11 +10771,11 @@ Page6.CreateToggle({
 
 
     Page6.CreateLable({
-	Name = "kỹ năng Fruit"
+	Name = "Skill Fruit"
 })
 
 Page6.CreateToggle({
-	Name = "kỹ năng Z",
+	Name = "Z",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10787,7 +10785,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng X",
+	Name = "X",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10797,7 +10795,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng C",
+	Name = "C",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10807,7 +10805,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng V",
+	Name = "V",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10817,7 +10815,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng F",
+	Name = "F",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10827,11 +10825,11 @@ Page6.CreateToggle({
 }) 
 
     Page6.CreateLable({
-	Name = "kỹ năng Melee"
+	Name = "Melee Skill"
 })
 
 Page6.CreateToggle({
-	Name = "kỹ năng Z",
+	Name = "Z",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10841,7 +10839,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng X",
+	Name = "X",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10851,7 +10849,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng C",
+	Name = "C",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10861,7 +10859,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng V",
+	Name = "V",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10873,11 +10871,11 @@ Page6.CreateToggle({
 
 
 Page6.CreateLable({
-	Name = "kỹ năng Sword"
+	Name = "Sword Skill"
 })
 
 Page6.CreateToggle({
-	Name = "kỹ năng Z",
+	Name = "Z",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10887,7 +10885,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng X",
+	Name = "X",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10897,11 +10895,11 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateLable({
-	Name = "kỹ năng Gun"
+	Name = "Gun Skill"
 })
 
 Page6.CreateToggle({
-	Name = "kỹ năng Z",
+	Name = "Z",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -10911,7 +10909,7 @@ Page6.CreateToggle({
 }) 
 
 Page6.CreateToggle({
-	Name = "kỹ năng X",
+	Name = "X",
 	Dis = "",
 	Value = true,
 	Callback = function(v)
@@ -11010,7 +11008,7 @@ end)
         
 if World2 then
 Page4.CreateToggle({
-	Name = "Tự động lấy đinh ba rồng",
+	Name = "Auto Dragon Trident",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11157,7 +11155,7 @@ end
     
 if World1 then
 Page4.CreateToggle({
-	Name = "Tự động lấy Pole v1",
+	Name = "AutoAuto Pole v1",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -11167,7 +11165,7 @@ Page4.CreateToggle({
 	end,
 }) 
 Page4.CreateToggle({
-	Name = "Tự động lấy Cưa cá mập",
+	Name = "Auto Shark Saw",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
