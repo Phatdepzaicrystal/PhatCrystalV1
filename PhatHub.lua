@@ -251,7 +251,7 @@ function library.Create(options)
 	Shadown.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	Shadown.ZIndex = 0
 	Shadown.Image = "rbxassetid://90571737707476"
-	Shadown.ImageColor3 = options.UIColor['Shadow'] or Color3.fromRGB(255, 255, 255)
+	Shadown.ImageColor3 = options.UIColor['Shadow'] or Color3.fromRGB(0, 0, 0)
 	Shadown.ImageTransparency = 0.300
 	Shadown.SliceCenter = Rect.new(95, 95, 205, 205)
 
