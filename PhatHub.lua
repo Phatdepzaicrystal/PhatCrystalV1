@@ -284,7 +284,7 @@ function library.Create(options)
 	Loading.Name = "Loading"
 	Loading.Parent = Main
 	Loading.AnchorPoint = Vector2.new(0.5, 0.5)
-	Loading.BackgroundColor3 = MainBackground or Color3.fromRGB(48, 51, 71)
+	Loading.BackgroundColor3 = MainBackground or Color3.fromRGB(0, 0, 0)
 	Loading.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Loading.BorderSizePixel = 0
 	Loading.Position = UDim2.new(0.5, 0, 0.5, 0)
