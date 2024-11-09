@@ -4627,7 +4627,7 @@ local Page2 = Tap1.CreatePage({
 })
 
 local Tap2 = Windown.CreateTap({
-	Title = "Iteam",
+	Title = "Item",
 	Icon = 10709769841
 })
 
@@ -4640,7 +4640,7 @@ local Page4 = Tap2.CreatePage({
 })
 
 local Tap3 = Windown.CreateTap({
-	Title = "Sea eventevent",
+	Title = "Sea event",
 	Icon = 10709761530
 })
 
@@ -4692,7 +4692,7 @@ local Page12 = Tap6.CreatePage({
 })
 
 local Tap7 = Windown.CreateTap({
-	Title = "ShopShop",
+	Title = "Shop",
 	Icon = 10734952479
 })
 
