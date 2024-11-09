@@ -251,7 +251,7 @@ function library.Create(options)
 	Shadown.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	Shadown.ZIndex = 0
 	Shadown.Image = "rbxassetid://90571737707476"
-	Shadown.ImageColor3 = options.UIColor['Shadow'] or Color3.fromRGB(48, 51, 71)
+	Shadown.ImageColor3 = options.UIColor['Shadow'] or Color3.fromRGB((255, 255, 255))
 	Shadown.ImageTransparency = 0.300
 	Shadown.SliceCenter = Rect.new(95, 95, 205, 205)
 
@@ -4815,12 +4815,12 @@ FarmMode = "Quest"
 
    
 Page1.CreateLable({
-	Name = "Farm iteam"
+	Name = "Farm Item"
 })
    
    
     Page1.CreateToggle({
-	Name = "Auto FarmFarm",
+	Name = "Auto Farm",
 	Dis = "",
 	Value = false,
 	Callback = function(v)
@@ -9774,7 +9774,7 @@ spawn(function()
 end
 if World1 or World2 then 
     Page5.CreateLable({
-	Name = "Sea event (Sea 3)"
+	Name = "Sea event"
 })
 end
 
